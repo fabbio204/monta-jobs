@@ -1,0 +1,21 @@
+name: Verificar PR
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: testes para aprovar PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set node version to 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - uses: bahmutov/npm-install@v1
+      - run: npm t

@@ -1,0 +1,26 @@
+{
+  "name": "monta-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabbio204/monta-jobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabbio204/monta-jobs/issues"
+  },
+  "homepage": "https://github.com/fabbio204/monta-jobs#readme"
+}
